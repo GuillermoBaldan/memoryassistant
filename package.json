@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "electron electron-init.js"
   },
   "repository": {
     "type": "git",
