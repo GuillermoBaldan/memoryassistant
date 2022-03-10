@@ -1,0 +1,27 @@
+{
+  "name": "memoryassistant",
+  "version": "1.0.0",
+  "description": "This software allows to carry out a control of pieces of information that have to be memorized in learning processes. It is ideal for students and anyone who has to prepare for an exam.",
+  "main": "electron-init.js",
+  "dependencies": {
+    "electron": "^17.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoBaldan/memoryassistant.git"
+  },
+  "keywords": [
+    "memory",
+    "assistant"
+  ],
+  "author": "Guillermo Baldán López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillermoBaldan/memoryassistant/issues"
+  },
+  "homepage": "https://github.com/GuillermoBaldan/memoryassistant#readme"
+}
