@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Assistant</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 offset-lg-2 pt-4 pb-4">
+          <canvas
+            id="chart-area"
+            width="300"
+            height="300"
+            class="chartjs-render-monitor"
+          ></canvas>
+        </div>
+        <div id="parentpannel" class="col-12 col-lg-4 pt-4 pb-4">
+          <div class="container-fluid" id="pannel-next-question"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-2 offset-lg-5 pt-4 pb-4">
+          <div id="start-button"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2 id="question-text"></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2 id="answer-text"></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          id="button-container"
+          class="col-12 col-lg-2 offset-lg-5 pt-4 pb-4"
+        ></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <button
+            id="save-button"
+            class="btn btn-success"
+            onclick="fsSaveData()"
+          >
+            save your results
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
