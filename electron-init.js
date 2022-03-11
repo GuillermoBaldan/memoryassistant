@@ -12,13 +12,15 @@ app.on("ready", () => {
   let win = new BrowserWindow({
     width: 800,
     height: 600,
-    title: "Memory Asistant",
+    title: "Memory Assistant",
     maximizable: true,
     center: true,
     frame: true,
     show: true,
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false,
+      enableRemoteModule: true,
     },
   });
 

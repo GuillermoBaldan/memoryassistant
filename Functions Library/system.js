@@ -1,4 +1,4 @@
-var fs = require("fs");
+const fs = require("fs");
 
 function loadData(url) {
   //2 Cargamos los datos
@@ -9,4 +9,4 @@ function loadData(url) {
   return json;
 }
 
-export { loadData };
+module.exports = loadData;
