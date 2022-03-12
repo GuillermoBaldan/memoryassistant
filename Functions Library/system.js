@@ -9,4 +9,4 @@ function loadData(url) {
   return json;
 }
 
-module.exports = loadData;
+module.exports = { loadData };
