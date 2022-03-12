@@ -9,4 +9,11 @@ function loadData(url) {
   return json;
 }
 
-module.exports = { loadData };
+function saveData(url, data) {
+  //1 Convertimos el objeto a un string
+  let json = JSON.stringify(data);
+  //2 Escribimos los datos en el archivo
+  fs.writeFileSync(url, json);
+}
+
+module.exports = { loadData, saveData };
